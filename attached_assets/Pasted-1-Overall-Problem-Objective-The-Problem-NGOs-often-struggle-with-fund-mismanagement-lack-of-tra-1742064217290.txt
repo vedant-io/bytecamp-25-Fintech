@@ -1,0 +1,57 @@
+1. Overall Problem & Objective
+The Problem:
+NGOs often struggle with fund mismanagement, lack of transparency, and donor distrust due to opaque donation processes. Traditional systems are fragmented and difficult to verify, which undermines accountability.
+
+The Objective:
+Develop a unified platform that uses blockchain for immutable transaction records and AI for NGO verification. The goal is to offer both donors and NGOs a transparent, secure, and efficient way to handle funds—from donation to utilization—thereby rebuilding trust and ensuring that funds are used as intended.
+
+2. Donor (User) Side
+A. Discovery & Verification
+NGO Listing/Directory:
+Donors land on a marketplace-like interface that showcases detailed NGO profiles. These profiles include:
+
+Registration Details: Information scraped from official websites (registration number, act name, city/state, etc.)
+Contact Details: Address, email, and mobile number
+Achievements & Impact: Historical performance, project achievements, and an internal “impact score” calculated based on their track record
+Sector Information: Primary and secondary working sectors, which help donors understand the NGO’s focus areas
+Filters & Search:
+The left sidebar offers filters to narrow down NGOs by name, operational area, primary sectors (e.g., Education, Health), or other parameters. This empowers donors to find organizations aligned with their interests and ensures only verified NGOs are presented at the top (based on internal scoring).
+
+B. Donation Process
+User Interface:
+Once donors select an NGO, they navigate to a dedicated donation page. The process involves:
+
+Entering a donation amount
+Initiating payment through a blockchain-based payment gateway
+Real-time verification that shows the blockchain transaction (e.g., displaying the transaction hash as proof)
+Trust and Transparency:
+The blockchain component guarantees that every donation is recorded immutably. Donors receive confirmations that are verifiable on the blockchain, reinforcing trust in the system.
+
+Communication & Notifications:
+Donors are kept informed through email or in-app notifications, confirming that their donation has been received by the NGO. This continuous feedback loop further builds confidence.
+
+3. NGO Side
+A. Dashboard & Transaction Management
+Dashboard Overview:
+NGOs access a secure dashboard where they see:
+Donation Summary: Total funds received, number of donors, and a live view of their crypto wallet balance
+Transaction History: A detailed log of each donation, including donor details (if provided), timestamps, and blockchain transaction details
+Visual Analytics: Graphs and charts that display donation trends and key metrics over time
+B. Withdrawal & Fund Utilization
+Withdrawal Request Process:
+NGOs can initiate a withdrawal request directly from their dashboard. This process includes:
+
+Filling out a form specifying the withdrawal amount and the purpose (e.g., project funding)
+Uploading supporting documents such as invoices, photos, or receipts that demonstrate how the funds will be used
+The request is then logged in the system as “pending” until processed
+Blockchain & Crypto Conversion:
+Since donations are received as cryptocurrency:
+
+The funds reside in a blockchain wallet linked to the NGO’s dashboard
+To convert crypto into usable fiat, the system can integrate with a crypto exchange or payment gateway (like Coinbase Commerce or BitPay). When the NGO initiates a withdrawal, this external service converts the crypto to fiat and transfers the funds to the NGO’s bank account
+The entire process remains transparent, with the conversion details and withdrawal logs stored alongside the blockchain transaction records
+Accountability and Impact Reporting:
+In addition to withdrawal management, NGOs have a dedicated area to:
+
+Update donors on the impact of the funds (project progress, outcome metrics, etc.)
+Post periodic impact reports and documentation that help maintain transparency and justify future funding
