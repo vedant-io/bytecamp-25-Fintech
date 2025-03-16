@@ -12,7 +12,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 
 # Set OpenAI API Key
-openai_key = "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"
+openai_key = "your-api-key"
 os.environ["OPENAI_API_KEY"] = openai_key
 
 # Load pre-trained model
